@@ -1,5 +1,7 @@
 # Bento Style for Astro
 
+DEMO
+[bento.temapint.com](http://bento.temapint.com/)
 
 A modern and aesthetic design template inspired by the Bento UI style. Built with Astro and optimized for performance and visual appeal.
 
