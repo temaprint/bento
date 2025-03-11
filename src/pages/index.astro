@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import BentoCard from '../components/BentoCard.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+---
+
+<Layout title="Bento Blog">
+  {posts.map(post => (
+    <BentoCard
+      title={post.data.title}
+      description={post.data.description}
+      image={post.data.image}
+      slug={post.slug}
+    />
+  ))}
+</Layout>

@@ -1,0 +1,127 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Bento-style Blog" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <main class="bento-grid">
+      <div class="bento-item logo-block">
+        <a href="/" class="logo-link">
+          <h1>Bento Blog</h1>
+          <p>A modern bento-style layout</p>
+        </a>
+      </div>
+      <slot />
+    </main>
+  </body>
+</html>
+<style is:global>
+  :root {
+    --bg-color: #1a1a1a;
+    --text-color: #ffffff;
+    --accent-color: #7c3aed;
+    --card-bg: rgba(255, 255, 255, 0.1);
+  }
+  
+  html {
+    font-family: system-ui, sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+  }
+
+  body {
+    margin: 0;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+
+  .bento-grid {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 1600px;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(180px, auto);
+  }
+
+  .bento-item {
+    background: var(--card-bg);
+    backdrop-filter: blur(8px);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .bento-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px -1px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .logo-block {
+    grid-column: span 2;
+    grid-row: span 1;
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.8), rgba(37, 99, 235, 0.8));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo-link {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s ease;
+  }
+
+  .logo-link:hover {
+    opacity: 0.9;
+  }
+
+  .logo-block h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .logo-block p {
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+    opacity: 0.9;
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .bento-item:nth-child(1) { animation-delay: 0.1s; }
+  .bento-item:nth-child(2) { animation-delay: 0.2s; }
+  .bento-item:nth-child(3) { animation-delay: 0.3s; }
+  .bento-item:nth-child(4) { animation-delay: 0.4s; }
+  .bento-item:nth-child(5) { animation-delay: 0.5s; }
+  .bento-item:nth-child(6) { animation-delay: 0.6s; }
+  .bento-item:nth-child(7) { animation-delay: 0.7s; }
+  .bento-item:nth-child(8) { animation-delay: 0.8s; }
+  .bento-item:nth-child(9) { animation-delay: 0.9s; }
+  .bento-item:nth-child(10) { animation-delay: 1s; }
+</style>
