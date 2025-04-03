@@ -3,6 +3,7 @@ title: "JavaScript Best Practices"
 description: "Write better JavaScript code with these proven practices."
 image: "https://picsum.photos/800/600?random=8"
 pubDate: 2024-01-08
+url: "https://951001-kma.github.io/Portafolio"
 ---
 
 # JavaScript Best Practices
