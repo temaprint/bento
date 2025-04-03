@@ -3,6 +3,7 @@ title: "Future of Web Dev"
 description: "Exploring upcoming trends in web development."
 image: "https://picsum.photos/800/600?random=10"
 pubDate: 2024-01-10
+url: "https://951001-kma.github.io/Portafolio"
 ---
 
 # Future of Web Dev
