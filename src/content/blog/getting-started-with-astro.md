@@ -3,6 +3,7 @@ title: "Getting Started with Astro"
 description: "Learn how to build fast websites with Astro's innovative approach to web development."
 image: "https://picsum.photos/800/600?random=1"
 pubDate: 2024-01-01
+url: "https://951001-kma.github.io/Portafolio"
 ---
 
 # Getting Started with Astro
