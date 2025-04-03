@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config';
-import mdx from '@astrojs/mdx';
+// import mdx from '@astrojs/mdx';
 
 export default defineConfig({
-  integrations: [mdx()],
+  // integrations: [mdx()],
   site: 'https://951001-kma.github.io',
   base: 'NCR23730-H',
 });
