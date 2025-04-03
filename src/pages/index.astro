@@ -12,7 +12,7 @@ const posts = await getCollection('blog');
       title={post.data.title}
       description={post.data.description}
       image={post.data.image}
-      slug={post.slug}
+      url={post.data.url}
     />
   ))}
 </Layout>
