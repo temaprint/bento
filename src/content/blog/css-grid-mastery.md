@@ -1,8 +1,8 @@
 ---
-title: "CSS Grid Mastery"
-description: "Master CSS Grid layout techniques for modern web design."
-image: "https://picsum.photos/800/600?random=4"
-pubDate: 2024-01-04
+title: "Kevin Oscar Mamani Arredondo"
+description: "Estudiante de ingeniería de Sistemas e Informática"
+image: "https://951001-kma.github.io/Portafolio/"
+pubDate: 2025-04-03
 ---
 
 # CSS Grid Mastery
