@@ -13,7 +13,7 @@ const { title, description, image, url } = Astro.props;
   <div class="content">
     <h2>
       <!-- Si existe external_url, usaremos eso como enlace; de lo contrario, usamos el slug -->
-      <a href={url || `/blog/${Astro.props.slug}`} target={url ? "_blank" : "_self"}>
+    <a href={url} target="_blank" rel="noopener noreferrer">
         {title}
       </a>
     </h2>
