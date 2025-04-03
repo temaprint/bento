@@ -3,15 +3,20 @@ interface Props {
   title: string;
   description: string;
   image?: string;
-  slug: string;
+  url?: string;
 }
 
-const { title, description, image, slug } = Astro.props;
+const { title, description, image, url } = Astro.props;
 ---
 
 <article class="bento-item">
   <div class="content">
-    <h2><a href={`/blog/${slug}`}>{title}</a></h2>
+    <h2>
+      <!-- Si existe external_url, usaremos eso como enlace; de lo contrario, usamos el slug -->
+      <a href={url || `/blog/${Astro.props.slug}`} target={url ? "_blank" : "_self"}>
+        {title}
+      </a>
+    </h2>
     <p>{description}</p>
   </div>
   {image && <div class="image-overlay" style={`background-image: url(${image})`} />}
