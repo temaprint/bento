@@ -5,13 +5,14 @@ import Layout from '../../layouts/Layout.astro';
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
   return posts.map(post => ({
-    params: { slug: post.slug },
+    params: { url: post.url },
     props: { post },
   }));
 }
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+const  url  = post.data.url;
 ---
 
 <Layout title={post.data.title}>
@@ -23,7 +24,7 @@ const { Content } = await post.render();
     )}
     <div class="content">
       <Content />
-      <a href="/NCR23730-H/" class="back-link">← Back to Home</a>
+      <a href={url} class="back-link" target="_blank" rel="noopener noreferrer">← Back to Home</a>
     </div>
   </article>
 </Layout>
