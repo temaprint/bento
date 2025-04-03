@@ -11,7 +11,7 @@ const { title, description, image, slug } = Astro.props;
 
 <article class="bento-item">
   <div class="content">
-    <h2><a href={`/blog/${slug}`}>{title}</a></h2>
+    <h2><a href={`${slug}`}>{title}</a></h2>
     <p>{description}</p>
   </div>
   {image && <div class="image-overlay" style={`background-image: url(${image})`} />}
