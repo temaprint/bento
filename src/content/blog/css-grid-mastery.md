@@ -1,7 +1,10 @@
+[ import photoperfil from "../../../../public/img/portafolio1.png"; ]: #
+import photoperfil from "../../../../public/favicon.ico";
+
 ---
 title: "Kevin Oscar Mamani Arredondo"
 description: "Estudiante de ingeniería de Sistemas e Informática"
-image: "https://951001-kma.github.io/Portafolio/"
+image: photoperfil
 pubDate: 2025-04-03
 ---
 
