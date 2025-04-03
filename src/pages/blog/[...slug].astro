@@ -23,7 +23,7 @@ const { Content } = await post.render();
     )}
     <div class="content">
       <Content />
-      <a href="/" class="back-link">← Back to Home</a>
+      <a href={post.data.url} class="back-link">← Back to Home</a>
     </div>
   </article>
 </Layout>
