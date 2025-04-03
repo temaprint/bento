@@ -3,6 +3,7 @@ title: "Design Systems"
 description: "Building and maintaining design systems for scalable applications."
 image: "https://picsum.photos/800/600?random=6"
 pubDate: 2024-01-06
+url: "https://951001-kma.github.io/Portafolio"
 ---
 
 # Design Systems
