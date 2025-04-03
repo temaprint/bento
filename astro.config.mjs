@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   // integrations: [mdx()],
-  site: 'https://951001-kma.github.io/NCR23730-H',
+  site: 'https://951001-kma.github.io/NCR23730-H/',
   base: 'NCR23730-H',
 });
