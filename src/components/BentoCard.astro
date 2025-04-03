@@ -8,6 +8,7 @@ interface Props {
 
 const { title, description, image, url } = Astro.props;
 ---
+console.log("URL:", url);  // Verificar si el valor de `url` es correcto
 
 <article class="bento-item">
   <div class="content">
