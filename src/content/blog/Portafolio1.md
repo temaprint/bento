@@ -3,7 +3,7 @@ title: "Kevin Oscar Mamani Arredondo"
 description: "Estudiante de ingeniería de Sistemas e Informática"
 image: "https://picsum.photos/800/600?random=4"
 pubDate: 2025-04-03
-url: "https://951001-kma.github.io/Portafolio/"
+url: "https://951001-kma.github.io/Portafolio"
 ---
 
 # CSS Grid Mastery
