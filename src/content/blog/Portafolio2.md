@@ -1,25 +1,13 @@
 ---
-title: "Design Systems"
-description: "Building and maintaining design systems for scalable applications."
+title: "Jorge Castilla"
+description: "Estudiante Universitario."
 image: "https://picsum.photos/800/600?random=6"
-pubDate: 2024-01-06
-url: "https://951001-kma.github.io/Portafolio"
+pubDate: 2025-04-03
+url: "https://jorge05-05.github.io/portafolio/"
 ---
 
-# Design Systems
+# Jorge Castilla
 
-A design system is a collection of reusable components, guided by clear standards, that can be assembled to build any number of applications.
+Estudiante Universitario en computación e informática con gran dedicación. Que busca aprender nuevos conocimientos y llegar a ser un gran diseñador web.Busco una oportunidad laboral para demostrar mi compromiso y capacidad de trabajo.
 
-## Key Components
-
-1. **Design Tokens**: Colors, typography, spacing, etc.
-2. **Components**: Buttons, cards, forms, etc.
-3. **Patterns**: Common UI patterns and layouts
-4. **Documentation**: Guidelines and usage examples
-
-## Implementation Strategies
-
-- Start small and scale gradually
-- Maintain consistency across platforms
-- Document everything thoroughly
-- Regular updates and maintenance
+## https://jorge05-05.github.io/portafolio/
