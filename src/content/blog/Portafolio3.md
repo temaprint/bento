@@ -1,25 +1,13 @@
 ---
-title: "Future of Web Dev"
+title: "Franklin Pezo"
 description: "Exploring upcoming trends in web development."
 image: "https://picsum.photos/800/600?random=10"
 pubDate: 2024-01-10
-url: "https://951001-kma.github.io/Portafolio"
+url: "https://franklinpezo.github.io/Portafolio"
 ---
 
-# Future of Web Dev
+# Franklin Pezo
 
-The web development landscape is constantly evolving. Stay ahead by understanding upcoming trends and technologies.
+Apasionado desarrollador web y diseñador gráfico con experiencia en la creación de sitios web modernos y atractivos. Mi objetivo es combinar la creatividad y la funcionalidad para construir soluciones digitales impactantes. Me encanta aprender y mejorar mis habilidades constantemente para ofrecer lo mejor en cada proyecto.
 
-## Emerging Technologies
-
-1. **Web Components**: Native component model
-2. **WebAssembly**: High-performance code in the browser
-3. **Progressive Web Apps**: Native-like web applications
-4. **Edge Computing**: Distributed computing at the edge
-
-## Future Trends
-
-- AI-powered development tools
-- No-code and low-code platforms
-- Improved performance APIs
-- Enhanced security features
+## https://franklinpezo.github.io/Portafolio
