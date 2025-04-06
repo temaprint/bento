@@ -1,6 +1,6 @@
 ---
 title: "Franklin Pezo"
-description: "Exploring upcoming trends in web development."
+description: "Apasionado desarrollador web y diseñador gráfico."
 image: "https://picsum.photos/800/600?random=10"
 pubDate: 2024-01-10
 url: "https://franklinpezo.github.io/Portafolio"
