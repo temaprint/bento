@@ -35,7 +35,7 @@ const { title } = Astro.props;
     --accent-color: #7c3aed;
     --card-bg: rgba(255, 255, 255, 0.1);
   }
-  
+
   html {
     font-family: system-ui, sans-serif;
     background: var(--bg-color);
@@ -106,6 +106,13 @@ const { title } = Astro.props;
     margin: 0.5rem 0 0;
     opacity: 0.9;
   }
+
+  @media only screen and (max-width: 600px) {
+  .bento-grid {
+      display: flex;
+      flex-direction: column;
+  }
+}
 
   @keyframes fadeInUp {
     to {
